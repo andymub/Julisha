@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.julisha.afrisuser.julisha.PrincipalActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/profil" />
+
+    <ImageButton
+        android:id="@+id/imageButtonproject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageButtonprofil"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/projets" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEvenement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButtonproject"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="49dp"
+        app:srcCompat="@drawable/events" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEntreprise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButtonEvenement"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/entreprise" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonproject"
+        android:layout_alignStart="@+id/imageButtonproject"
+        android:layout_below="@+id/imageButtonproject"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="5dp"
+        android:text="Projets"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonEvenement"
+        android:layout_alignStart="@+id/imageButtonEvenement"
+        android:layout_below="@+id/imageButtonEvenement"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="5dp"
+        android:text="Evenement"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButtonEntreprise"
+        android:layout_alignRight="@+id/imageButtonEntreprise"
+        android:layout_below="@+id/imageButtonEntreprise"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="5dp"
+        android:text="Entreprises"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonprofil"
+        android:layout_alignStart="@+id/imageButtonprofil"
+        android:layout_below="@+id/imageButtonprofil"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="5dp"
+        android:text="Profil"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
