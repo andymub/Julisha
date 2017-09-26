@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="photo_produict_margin">50dp</dimen>
+    <dimen name="listview_dim">377dp</dimen>
+    <dimen name="scandeal_margin_bottom">10sp</dimen>
+    <dimen name="sugestion_width">61dp</dimen>
+    <dimen name="overview_width">139sp</dimen>
+    <dimen name="overview_height">90sp</dimen>
+    <dimen name="suggestion_title_margin_start">20dp</dimen>
+    <dimen name="suggestion_text_margin_top">11dp</dimen>
+    <dimen name="suggestion_text_margin_end">15dp</dimen>
+    <dimen name="connexion_button_width">346dp</dimen>
+    <dimen name="connexion_button_height">53dp</dimen>
+    <dimen name="margin_bottom_txt_passer">23dp</dimen>
+    <dimen name="padding_left_txtbutton_login">70dp</dimen>
+    <dimen name="small_size_text">16sp</dimen>
+    <dimen name="margin_photo">10sp</dimen>
+    <dimen name="secondActionBarSize">45sp</dimen>
+    <dimen name="shop_photo_width">118dp</dimen>
+    <dimen name="profil_width_and_height">120dp</dimen>
+    <dimen name="profil_picture_margin_start">10dp</dimen>
+    <dimen name="phone_adress_margin_left_and_right">10sp</dimen>
+</resources>

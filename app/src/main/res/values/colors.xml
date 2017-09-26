@@ -4,4 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colororange">#fa6d16</color>
+    <color name="greenBackGround">#34b7a7</color>0
+    <color name="greenForSuggestion">#27645f</color>
+    <color name="white">#fcfcfc</color>
+    <color name="black">#000102</color>
+    <color name="DarkGray">#333333</color>
+    <color name="Graytexte">#6e6e6e</color>
 </resources>

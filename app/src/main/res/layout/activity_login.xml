@@ -7,4 +7,73 @@
     android:background="@android:color/background_light"
     tools:context="com.julisha.afrisuser.julisha.LoginActivity">
 
+    <TextView
+        android:id="@+id/txt_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_con"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="19dp"
+        android:text="@string/Passer"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="@dimen/connexion_button_width"
+        android:layout_height="@dimen/connexion_button_height"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/facebook_login"
+        android:paddingLeft="@dimen/padding_left_txtbutton_login"
+        android:text="@string/connexion_avec_Facebook"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="19dp" />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="@dimen/connexion_button_width"
+        android:layout_height="@dimen/connexion_button_height"
+        android:background="@drawable/gmail_login"
+        android:paddingLeft="@dimen/padding_left_txtbutton_login"
+        android:text="@string/Connexion_google"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="309dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/btn_facebook"
+        android:layout_marginTop="81dp" />
+
+    <Button
+        android:id="@+id/btn_con"
+        android:layout_width="@dimen/connexion_button_width"
+        android:layout_height="@dimen/connexion_button_height"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button_shape"
+        android:paddingLeft="@dimen/padding_left_txtbutton_login"
+        android:text="@string/creer_compte"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="309dp"
+        android:layout_below="@+id/btn_google"
+        android:layout_alignStart="@+id/btn_google" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/julisha_logo" />
+
+
 </RelativeLayout>
+
+
