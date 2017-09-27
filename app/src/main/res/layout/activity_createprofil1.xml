@@ -16,7 +16,7 @@
             android:background="@drawable/background">
 
             <TextView
-                android:id="@+id/sinConnexion"
+                android:id="@+id/sinCreate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
@@ -40,12 +40,14 @@
                 android:id="@+id/account"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_above="@id/sinCreate"
                 android:gravity="center"
                 android:paddingBottom="16dp"
                 android:text="Vous avez déjà un compte?"
                 android:textColor="#c4c5c9"
-                android:textSize="16dp" />
+                android:textSize="16dp"
+                android:layout_above="@+id/sinCreate"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="22dp" />
             <LinearLayout
                 android:id="@+id/circle"
                 android:layout_width="match_parent"
@@ -53,8 +55,9 @@
                 android:background="@drawable/circleangle"
                 android:padding="16dp"
                 android:orientation="horizontal"
-                android:layout_marginTop="140dp"
-                >
+                android:layout_marginTop="104dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
