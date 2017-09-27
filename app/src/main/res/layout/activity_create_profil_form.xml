@@ -162,6 +162,7 @@
                     android:scrollbarStyle="insideOverlay"
                     android:text="Type d'utilisateur"
                     android:textColor="@color/DarkGray"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <RadioGroup
