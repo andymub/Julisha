@@ -84,6 +84,15 @@
                         android:textColorHint="#ADCCE2"
                         android:textSize="16dp" />
 
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:background="#ADCCE2" />
+
                     <EditText
                         android:id="@+id/usrusr"
                         android:layout_width="match_parent"
@@ -159,14 +168,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.14"
-                            android:text="Chef d'entreprise" />
+                            android:text="Chef d'entreprise"
+                            android:textColor="@color/colororange"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <RadioButton
                             android:id="@+id/radioButton3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.14"
-                            android:text="Collaborateur" />
+                            android:text="Collaborateur"
+                            android:textColor="@color/colororange"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -182,14 +197,20 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.14"
-                            android:text="Investiseur" />
+                            android:text="Investiseur"
+                            android:textColor="@color/colororange"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <RadioButton
                             android:id="@+id/radioButton3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.14"
-                            android:text="Cadre" />
+                            android:text="Cadre"
+                            android:textColor="@color/colororange"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -204,18 +225,24 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.14"
-                            android:text="Freelance" />
+                            android:text="Freelance"
+                            android:textColor="@color/colororange"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <RadioButton
                             android:id="@+id/radioButton2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.14"
-                            android:text="Autre..." />
+                            android:text="Autre..."
+                            android:textColor="@color/colororange"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <View
-                        android:id="@+id/view"
+                        android:id="@+id/view2"
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:layout_marginBottom="10dp"
