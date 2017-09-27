@@ -9,13 +9,14 @@ import android.widget.TextView;
 
 public class CreateProfil1Activity extends AppCompatActivity {
 
-    private TextView signupforfree;
+    private TextView signupforfree,sinConnexion;
     private ImageView createprofimg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_createprofil1);
         signupforfree=(TextView)findViewById(R.id.signupforfree);
+        sinConnexion=(TextView)findViewById(R.id.sinConnexion);
         createprofimg=(ImageView)findViewById(R.id.createprofimg);
 
         signupforfree.setOnClickListener(new View.OnClickListener() {
@@ -31,6 +32,13 @@ public class CreateProfil1Activity extends AppCompatActivity {
                 //bia best practice
                 Intent createProfil1=new Intent(CreateProfil1Activity.this, CreateProfilFormActivity.class);
                 startActivity(createProfil1);
+            }
+        });
+        sinConnexion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent createProfil=new Intent(CreateProfil1Activity.this, SigninActivity.class);
+                startActivity(createProfil);
             }
         });
     }

@@ -16,7 +16,7 @@
             android:background="@drawable/background">
 
             <TextView
-                android:id="@+id/sinCreate"
+                android:id="@+id/sinConnexion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
