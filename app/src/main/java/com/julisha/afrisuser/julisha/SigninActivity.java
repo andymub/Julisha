@@ -15,7 +15,7 @@ public class SigninActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
         sback = (ImageView)findViewById(R.id.sinb);
-        localSignin=(TextView)findViewById(R.id.sin) ;
+        localSignin=(TextView)findViewById(R.id.sinCreate) ;
         sback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

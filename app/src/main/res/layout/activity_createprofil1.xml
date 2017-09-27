@@ -16,7 +16,7 @@
             android:background="@drawable/background">
 
             <TextView
-                android:id="@+id/sin"
+                android:id="@+id/sinCreate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
@@ -40,7 +40,7 @@
                 android:id="@+id/account"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_above="@id/sin"
+                android:layout_above="@id/sinCreate"
                 android:gravity="center"
                 android:paddingBottom="16dp"
                 android:text="Vous avez déjà un compte?"
