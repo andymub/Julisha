@@ -1,9 +1,9 @@
 package com.julisha.afrisuser.julisha;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 public class PrincipalActivity extends AppCompatActivity implements View.OnClickListener {
@@ -27,6 +27,7 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
 
     @Override
     public void onClick(View v) {
+        Intent principalIntent;
         switch (v.getId())
         {
             case R.id .imageButtonEntreprise :
@@ -34,6 +35,8 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
                 break;
             case R.id .imageButtonprofil :
                 //todo go to Profil activity
+                principalIntent= new Intent(PrincipalActivity.this, CreateProfilActivity.class);
+                startActivity(principalIntent);
                 break;
             case R.id .imageButtonproject :
                 //todo go to Project activity

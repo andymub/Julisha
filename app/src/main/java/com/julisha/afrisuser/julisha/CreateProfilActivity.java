@@ -3,11 +3,11 @@ package com.julisha.afrisuser.julisha;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class UserProfilActivity extends AppCompatActivity {
+public class CreateProfilActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user_profil);
+        setContentView(R.layout.activity_createprofil);
     }
 }

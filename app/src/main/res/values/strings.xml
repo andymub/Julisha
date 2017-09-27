@@ -10,12 +10,11 @@
     <string name="connexion_avec_Facebook">connexion avec Facebook</string>
     <string name="Connexion_google">connexion avec google</string>
     <string name="creer_compte">Connexion</string>
+    <string name="creer_compte1">Créer un compte</string>
     <string name="Passer">creer un compte > </string>
     <string name="product_title">Product title</string>
     <string name="user_number">06 54 25 15 25</string>
     <string name="user_adress">84 Rue du Gros chapeau. 78000 Versailles</string>
-
-
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
