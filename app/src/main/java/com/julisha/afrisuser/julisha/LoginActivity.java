@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Switch;
 import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
@@ -51,7 +50,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.txt_next:
                 Intent startCreate;
-                startCreate =new Intent(LoginActivity.this, CreateProfilActivity.class);
+                startCreate =new Intent(LoginActivity.this, CreateProfil1Activity.class);
                 startActivity(startCreate);
 
         }

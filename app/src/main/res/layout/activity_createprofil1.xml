@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.julisha.afrisuser.julisha.CreateProfilActivity">
+    tools:context="com.julisha.afrisuser.julisha.CreateProfil1Activity">
 
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -60,18 +60,20 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="1dp">
+
                     <ImageView
+                        android:id="@+id/createprofimg"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/angle2"
-                        />
+                        android:src="@drawable/angle2" />
+
                     <ImageView
+                        android:id="@+id/imgcreate"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/ic_account_box_black"
-                        android:paddingLeft="3dp"
                         android:layout_gravity="center"
-                        />
+                        android:paddingLeft="3dp"
+                        android:src="@drawable/ic_account_box_black" />
                 </FrameLayout>
 
                 <TextView

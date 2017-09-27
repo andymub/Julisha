@@ -35,7 +35,7 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
                 break;
             case R.id .imageButtonprofil :
                 //todo go to Profil activity
-                principalIntent= new Intent(PrincipalActivity.this, CreateProfilActivity.class);
+                principalIntent= new Intent(PrincipalActivity.this, CreateProfil1Activity.class);
                 startActivity(principalIntent);
                 break;
             case R.id .imageButtonproject :
