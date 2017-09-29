@@ -22,7 +22,9 @@
         <activity android:name=".SigninActivity" />
         <activity android:name=".CreateProfilFormActivity" />
         <activity android:name=".UserProfilActivity" />
-        <activity android:name=".EntreppriseListeActivity"></activity>
+        <activity android:name=".EntreppriseListeActivity" />
+        <activity android:name=".ProjectActivity" />
+        <activity android:name=".ProjectListActivity"></activity>
     </application>
 
 </manifest>

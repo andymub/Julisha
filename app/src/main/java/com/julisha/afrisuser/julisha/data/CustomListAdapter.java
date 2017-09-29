@@ -1,4 +1,4 @@
-package com.julisha.afrisuser.julisha;
+package com.julisha.afrisuser.julisha.data;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.julisha.afrisuser.julisha.R;
 
 /**
  * Created by Andymub on 29/09/2017.

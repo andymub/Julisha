@@ -45,17 +45,16 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
         switch (v.getId())
         {
             case R.id .imageButtonEntreprise :
-                //todo go to entreprise activity
                 Intent IntentEntreprise = new Intent(PrincipalActivity.this, EntreppriseListeActivity.class);
                 startActivity(IntentEntreprise);
                 break;
             case R.id .imageButtonprofil :
-                //todo go to Profil activity
                 principalIntent= new Intent(PrincipalActivity.this, UserProfilActivity.class);
                 startActivity(principalIntent);
                 break;
             case R.id .imageButtonproject :
-                //todo go to Project activity
+                Intent intentProject = new Intent(PrincipalActivity.this, ProjectActivity.class);
+                startActivity(intentProject);
                 break;
             case R.id .imageButtonEvenement :
                 //todo go to Events activity
