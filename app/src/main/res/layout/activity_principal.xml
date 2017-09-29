@@ -18,6 +18,7 @@
 
             <ImageButton
                 android:id="@+id/imageButtonprofil"
+                style="@android:style/Widget.DeviceDefault.Light.ImageButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
@@ -38,7 +39,8 @@
                 android:layout_marginRight="39dp"
                 android:layout_marginTop="5dp"
                 android:text="Entreprises"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -51,7 +53,8 @@
                 android:layout_marginStart="38dp"
                 android:layout_marginTop="5dp"
                 android:text="Evenement"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
 
             <ImageButton
                 android:id="@+id/imageButtonEvenement"
@@ -95,7 +98,8 @@
                 android:layout_marginStart="52dp"
                 android:layout_marginTop="5dp"
                 android:text="Projets"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -108,7 +112,8 @@
                 android:layout_marginStart="57dp"
                 android:layout_marginTop="5dp"
                 android:text="Profil"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
         </RelativeLayout>
     </ScrollView>
 
