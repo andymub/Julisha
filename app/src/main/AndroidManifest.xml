@@ -27,11 +27,11 @@
         <activity android:name=".ProjectListActivity" />
         <activity android:name=".EntrepriseViewActivity" />
         <activity android:name=".TrouverInvestisseurActivity" />
-        <activity android:name=".ProjectDetailActivity" />
         <activity
-            android:name=".EventsActivity"
-            android:label="@string/title_activity_events"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".bottomnav_Activity"
+            android:label="_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FinanceActivity"></activity>
     </application>
 
 </manifest>
