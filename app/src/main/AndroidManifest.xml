@@ -26,7 +26,12 @@
         <activity android:name=".ProjectActivity" />
         <activity android:name=".ProjectListActivity" />
         <activity android:name=".EntrepriseViewActivity" />
-        <activity android:name=".TrouverInvestisseurActivity"></activity>
+        <activity android:name=".TrouverInvestisseurActivity" />
+        <activity
+            android:name=".bottomnav_Activity"
+            android:label="_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FinanceActivity"></activity>
     </application>
 
 </manifest>

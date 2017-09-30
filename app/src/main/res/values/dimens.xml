@@ -24,4 +24,6 @@
     <dimen name="profil_width_and_height">120dp</dimen>
     <dimen name="profil_picture_margin_start">10dp</dimen>
     <dimen name="phone_adress_margin_left_and_right">10sp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
 </resources>

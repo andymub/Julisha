@@ -85,12 +85,22 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
         switch (item.getItemId()) {
             case R.id.action_addprojet:
                 //todo go to add project
+                Intent IntentAddprojet = new Intent(PrincipalActivity.this, bottomnav_Activity.class);
+                IntentAddprojet.putExtra("bottomItem",1);
+                startActivity(IntentAddprojet);
+
                 break;
             case R.id.action_mes_project:
                 //todo go to check my project
+                Intent Intentmes_project = new Intent(PrincipalActivity.this, bottomnav_Activity.class);
+                Intentmes_project.putExtra("bottomItem",2);
+                startActivity(Intentmes_project);
                 break;
             case R.id.action_Offres_des_Finacements:
                 //todo go to check finance offer
+                Intent IntentFinacements = new Intent(PrincipalActivity.this, bottomnav_Activity.class);
+                IntentFinacements.putExtra("bottomItem",3);
+                startActivity(IntentFinacements);
                 break;
         }
     }
