@@ -8,8 +8,10 @@
     tools:context="com.julisha.afrisuser.julisha.bottomnav_Activity"
     tools:showIn="@layout/app_bar_bottomnav_">
 
-    <include
-        layout="@layout/finance"
+    <ListView
+        android:id="@+id/list"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+
+    </ListView>
 </RelativeLayout>

@@ -19,8 +19,12 @@ import android.view.ViewParent;
 import android.view.ViewStub;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.Toast;
 import android.widget.ViewFlipper;
+
+import com.julisha.afrisuser.julisha.data.CustomList;
 
 import java.security.PrivateKey;
 
@@ -51,13 +55,13 @@ private ViewFlipper vfli1,vfli2,vfli3;
             fab.setImageResource(R.mipmap.ic_addfile);
             //Spinner staticSpinner = (Spinner) findViewById(R.id.static_spinner);
             // Create an ArrayAdapter using the string array and a default spinner
-            ArrayAdapter<CharSequence> staticAdapter = ArrayAdapter
-                    .createFromResource(this, R.array.brew_array,
-                            android.R.layout.simple_spinner_item);
-
-            // Specify the layout to use when the list of choices appears
-            staticAdapter
-                    .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//            ArrayAdapter<CharSequence> staticAdapter = ArrayAdapter
+//                    .createFromResource(this, R.array.brew_array,
+//                            android.R.layout.simple_spinner_item);
+//
+//            // Specify the layout to use when the list of choices appears
+//            staticAdapter
+//                    .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
             // Apply the adapter to the spinner
            // staticSpinner.setAdapter(staticAdapter);
@@ -92,7 +96,54 @@ private ViewFlipper vfli1,vfli2,vfli3;
             vfli1.setVisibility(View.INVISIBLE);
             vfli3.setVisibility(View.INVISIBLE);
         }
-        else {title="Offres des financements"; vfli3.setVisibility(View.VISIBLE);vfli1.setVisibility(View.INVISIBLE); vfli2.setVisibility(View.INVISIBLE);}
+        else {title="Offres des financements"; vfli3.setVisibility(View.VISIBLE);vfli1.setVisibility(View.INVISIBLE); vfli2.setVisibility(View.INVISIBLE);
+            ListView list;
+            final String[] web = {
+                    "OFFRE DE FINANCEMENT ECOBANK GROUP ",
+                    "OFFRE DE FINANCEMENT Boostmyshop",
+                    "offre de microcred ",
+                    "offre de finacement ",
+                    "OFFRE DE FMI",
+                    "OFFRE DE LA RAWBANK",
+                    "OFFRE DE LA BCDC"
+            } ;
+
+            final String[] web2 = {
+                    "Domaine de sécurité banquaire",
+                    "Domaine de vente en ligne",
+                    "Domaine de l'elevage et agriculture",
+                    "Sport",
+                    "Publicité et Media",
+                    "Assurance",
+                    "Artisanat"
+            } ;
+
+            final String[] web3 = {
+                    "500 USD",
+                    "18 547 EUR",
+                    "14 544 554 534 FC",
+                    "5048 USD",
+                    "2 541 USD",
+                    "1 500 USD",
+                    "524 USD"
+            };
+            CustomList adapter = new
+                    CustomList(bottomnav_Activity.this, web, web2,web3);
+            list=(ListView)findViewById(R.id.list);
+            list.setAdapter(adapter);
+            list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view,
+                                        int position, long id) {
+                    Toast.makeText(bottomnav_Activity.this, "You Clicked at " +web[+ position], Toast.LENGTH_SHORT).show();
+
+                }
+            });
+
+
+
+        }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setTitle(title);
