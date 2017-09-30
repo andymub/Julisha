@@ -62,6 +62,8 @@ public class ArticleFragment extends Fragment {
         return rootView;
     }
 
+
+
     private void populateArticle() {
         String[] categories = { "Project One",
                 "Project two",
