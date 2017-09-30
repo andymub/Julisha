@@ -5,9 +5,9 @@
     tools:context="com.julisha.afrisuser.julisha.events.SuccessStoryFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
+        android:id="@+id/success_story_list_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="hello from success story fragment" />
+        android:layout_height="match_parent" />
 
 </FrameLayout>

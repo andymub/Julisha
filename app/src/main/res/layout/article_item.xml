@@ -28,7 +28,6 @@
             android:text="Project pour aller vendre les poissons a moins cher"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"/>
 
-
     </LinearLayout>
 
     <ImageView

@@ -29,10 +29,10 @@ public class ArticleAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        View view = LayoutInflater.from(mContext).inflate(R.layout.project_item,parent, false);
+        View view = LayoutInflater.from(mContext).inflate(R.layout.article_item,parent, false);
 
-        TextView projectCategoryTV = (TextView) view.findViewById(R.id.project_title_tv);
-        ImageView projectIconTV = (ImageView) view.findViewById(R.id.project_icon_iv);
+        TextView projectCategoryTV = (TextView) view.findViewById(R.id.article_title_tv);
+        ImageView projectIconTV = (ImageView) view.findViewById(R.id.article_icon_iv);
 
         projectCategoryTV.setText(mArticles[position]);
         projectIconTV.setImageResource(mArticleIcons[position]);
