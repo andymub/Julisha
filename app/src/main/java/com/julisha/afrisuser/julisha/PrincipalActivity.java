@@ -111,7 +111,7 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
                 startActivity(principalIntent);
                 break;
             case R.id .imageButtonproject :
-                Intent intentProject = new Intent(PrincipalActivity.this, ProjectActivity.class);
+                Intent intentProject = new Intent(PrincipalActivity.this, ProjectListActivity.class);
                 startActivity(intentProject);
                 break;
             case R.id .imageButtonEvenement :
