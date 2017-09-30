@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/investisseur"
+        android:title="Trouver un investisseur" />
+    <item android:id="@+id/aide"
+        android:title="Besoin d'aide" />
+    <item android:id="@+id/Contact"
+        android:title="Nous Contacter" />
+</menu>

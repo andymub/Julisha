@@ -1,5 +1,6 @@
 package com.julisha.afrisuser.julisha;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -41,6 +42,7 @@ public class EntreppriseListeActivity extends AppCompatActivity {
         list=(ListView)findViewById(R.id.list);
         list.setAdapter(adapter);
 
+
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -49,6 +51,12 @@ public class EntreppriseListeActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub
                 String Slecteditem= itemname[+position];
                 Toast.makeText(getApplicationContext(), Slecteditem, Toast.LENGTH_SHORT).show();
+                Intent intentEntreprise;
+                intentEntreprise=new Intent(EntreppriseListeActivity.this,EntrepriseViewActivity.class);
+                intentEntreprise.putExtra("position",+position);
+                startActivity(intentEntreprise);
+
+
 
             }
         });

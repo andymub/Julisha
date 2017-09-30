@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtMainTitle"
         android:layout_centerHorizontal="true"
-        android:text="Link Us"
+        android:text="Du concepte à l'entreprise"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.507"

@@ -31,7 +31,7 @@ public class CustomListAdapter extends ArrayAdapter<String> {
 
     public View getView(int position,View view,ViewGroup parent) {
 
-        String annee []={"1923","1991","2001","2014","1995","1991","19","1970"};
+        String annee []={"1923","2001","2001","2014","1995","1991","19","1970"};
         LayoutInflater inflater=context.getLayoutInflater();
         View rowView=inflater.inflate(R.layout.mylist, null,true);
 
