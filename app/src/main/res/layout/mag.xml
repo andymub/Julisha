@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_circle_indicator_fill_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.julisha.afrisuser.julisha.ProjectDetailActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout5"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="21.50">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="182dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="21.50"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/thomas7" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toEndOf="@+id/imageView4"
+                        android:elevation="1dp"
+                        android:text="Entreprendre en RDC: Quel statut juridique?"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginTop="22dp"
+                        android:layout_toEndOf="@+id/imageView4"
+                        android:layout_weight="21.50">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="8dp"
+                            android:src="@drawable/ic_location"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/imageView5"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toEndOf="@+id/imageView5"
+                            android:text="RD.Congo"
+                            android:textSize="12sp"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView156"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="55dp"
+                            android:layout_weight="21.50"
+                            android:elevation="0dp"
+                            android:text="Les indicateurs sont unanimes pour affirmer qu'en  2050, la population d’Afrique subsaharienne aura doublé et dépassera les 2 milliards d’individus."
+                            android:textColor="@color/DarkGray"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:elevation="0dp"
+                    android:text="Cette croissance démographique inédite pose le défi majeur de la création d’emplois, en particulier pour les jeunes.           D’ici 2020, plus de 60% des 120 millions de jeunes entrant sur le marché du travail risquent de rester au chômage. "
+                    android:textColor="@color/DarkGray"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="193dp"
+                    android:layout_height="1dp"
+                    android:background="#a5a4a4" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/linearLayout5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/project_image_iv4"
+                    android:layout_width="182dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="21.50"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/thomas5" />
+
+                <TextView
+                    android:id="@+id/project_title_tv47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:elevation="1dp"
+                    android:text="Le projet de loi sur les échanges et le commerce électronique en RDC: A quoi doivent s'attendre  les e-commerçants de la RDC?"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+                <RelativeLayout
+                    android:layout_width="183dp"
+                    android:layout_height="21dp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="326dp">
+
+                    <ImageView
+                        android:id="@+id/ic_location1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_location"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/project_location_amount5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_toEndOf="@+id/ic_location1"
+                        android:text="Kinshasa"
+                        android:textSize="12sp"
+
+                        app:layout_constraintTop_toTopOf="parent" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="1dp"
+                    android:text="Le gouvernement congolais a pris l’initiative le 19 avril 2017 de soumettre un projet de loi à l’assemblée nationale portant sur les échanges et le commerce électronique dont l’examen s’opèrera lors de la session parlementaire en cours. "
+                    android:textColor="@color/DarkGray"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="193dp"
+                    android:layout_height="1dp"
+                    android:background="#a5a4a4" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/project_image_iv1"
+                        android:layout_width="182dp"
+                        android:layout_height="137dp"
+                        android:adjustViewBounds="true"
+                        android:elevation="1dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/thomas6" />
+
+                    <TextView
+                        android:id="@+id/project_title_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_marginLeft="3dp"
+                        android:elevation="1dp"
+                        android:text="L’ORGANISATION DU MEDIATHON DE KINSHASA"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <RelativeLayout
+                        android:layout_width="183dp"
+                        android:layout_height="21dp"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="326dp">
+
+                        <ImageView
+                            android:id="@+id/ic_location2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="8dp"
+                            android:src="@drawable/ic_location"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/project_location_amount1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_toEndOf="@+id/ic_location2"
+                            android:text="Kinshasa"
+                            android:textSize="12sp"
+                            app:layout_constraintLeft_toRightOf="@+id/ic_location2"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="193dp"
+                        android:layout_height="1dp"
+                        android:background="#a5a4a4" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.98"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/project_image_iv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_weight="0.72"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/thomas4" />
+
+                    <TextView
+                        android:id="@+id/project_title_tv"
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="0.94"
+                        android:text="Un de nouveaux sites en vue auprès des étudiants de la ville de Kinshasa et progressivement dans les provinces du sud est du pays."
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="326dp">
+
+                        <ImageView
+                            android:id="@+id/ic_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="8dp"
+                            android:src="@drawable/ic_location"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/project_location_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_toEndOf="@+id/ic_location"
+                            android:elevation="1dp"
+                            android:text="Kinshasa"
+                            android:textSize="12sp"
+                            app:layout_constraintLeft_toRightOf="@+id/ic_location"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="193dp"
+                        android:layout_height="1dp"
+                        android:background="#a5a4a4" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignEnd="@+id/linearLayout6"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_below="@+id/linearLayout8">
+
+                <ImageView
+                    android:id="@+id/project_image_ivz"
+                    android:layout_width="182dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="21.50"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pav" />
+
+                <TextView
+                    android:id="@+id/project_title_dz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:elevation="1dp"
+                    android:text="À 24 ans, il démarre un incubateur de start-up en RDC"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+                <RelativeLayout
+                    android:layout_width="183dp"
+                    android:layout_height="21dp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="326dp">
+
+                    <ImageView
+                        android:id="@+id/ic_45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="8dp"
+                        android:src="@drawable/ic_location"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/txt14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="Kinshasa"
+                        android:textSize="12sp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/ic_45" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="193dp"
+                    android:layout_height="1dp"
+                    android:background="#a5a4a4" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/linearLayout7"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="4dp"
+                android:elevation="0dp"
+                android:text="Dylan DeCoste, 24 ans, originaire d’Hamilton en Ontario et diplômé de l’Université Ryerson à Toronto, se trouve actuellement en République démocratique du Congo (RDC) où il réalise une première affectation pour Cuso International. "
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/linearLayout6"
+                android:layout_toEndOf="@+id/linearLayout7"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:id="@+id/linearLayout8">
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
