@@ -1,6 +1,7 @@
 package com.julisha.afrisuser.julisha.events;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -9,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.julisha.afrisuser.julisha.EventDetailActivity;
 import com.julisha.afrisuser.julisha.R;
 import com.julisha.afrisuser.julisha.data.ArticleAdapter;
 
@@ -61,12 +63,19 @@ public class SuccessStoryFragment extends Fragment {
                 mSuccessStoriesIcons);
 
         successStoryLV.setAdapter(mSuccessStoriesAdapter);
+        successStoryLV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), EventDetailActivity.class);
+                startActivity(intent);
+            }
+        });
         return rootView;
     }
 
     private void populateSuccessStory() {
 
-        String[] categories = { "Success Story One",
+        String[] categories = { "Premier e-commerce a Kinshasa : eMart.cd",
                 "Success Story two",
                 "Success Story three",
                 "Success Story four",

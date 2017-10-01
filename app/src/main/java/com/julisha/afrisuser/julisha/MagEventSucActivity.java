@@ -25,19 +25,15 @@ public class MagEventSucActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     mTextMessage.setText("MAGAZINE");
-
                     return true;
                 case R.id.navigation_dashboard:
                     mTextMessage.setText("EVENEMENTS");
-
                     return true;
                 case R.id.navigation_notifications:
                     mTextMessage.setText("SUCCES STORY");
-
                     return true;
             }
             return true;
-
         }
 
     };
