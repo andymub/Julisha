@@ -24,7 +24,7 @@ public class MagEventSucActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    mTextMessage.setText("MAGAZIN");
+                    mTextMessage.setText("MAGAZINE");
 
                     return true;
                 case R.id.navigation_dashboard:
