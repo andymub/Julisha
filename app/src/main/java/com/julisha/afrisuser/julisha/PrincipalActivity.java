@@ -67,13 +67,16 @@ public class PrincipalActivity extends AppCompatActivity implements View.OnClick
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.investisseur:
-                Toast.makeText(getApplicationContext(),"Item 1 Selected",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Investisseurs",Toast.LENGTH_LONG).show();
+                Intent IntentFinacements1 = new Intent(PrincipalActivity.this, bottomnav_Activity.class);
+                IntentFinacements1.putExtra("bottomItem",3);
+                startActivity(IntentFinacements1);
                 return true;
             case R.id.aide:
-                Toast.makeText(getApplicationContext(),"Item 2 Selected",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Aide",Toast.LENGTH_LONG).show();
                 return true;
             case R.id.Contact:
-                Toast.makeText(getApplicationContext(),"Item 3 Selected", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Contact", Toast.LENGTH_LONG).show();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

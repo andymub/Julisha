@@ -8,10 +8,24 @@
     tools:context="com.julisha.afrisuser.julisha.bottomnav_Activity"
     tools:showIn="@layout/app_bar_bottomnav_">
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Les offres et les financements"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
     <ListView
         android:id="@+id/list"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8">
 
     </ListView>
 </RelativeLayout>

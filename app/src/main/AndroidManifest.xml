@@ -31,7 +31,11 @@
             android:name=".bottomnav_Activity"
             android:label="_"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".FinanceActivity"></activity>
+        <activity android:name=".FinanceActivity" />
+        <activity
+            android:name=".MagEventSucActivity"
+            android:label="Actualités" />
+        <activity android:name=".testActivity"></activity>
     </application>
 
 </manifest>

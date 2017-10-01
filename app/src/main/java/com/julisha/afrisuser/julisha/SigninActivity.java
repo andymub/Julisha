@@ -27,7 +27,7 @@ public class SigninActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent startSin;
-                startSin =new Intent(SigninActivity.this, PrincipalActivity.class);
+                startSin =new Intent(SigninActivity.this, MagEventSucActivity.class);
                 startActivity(startSin);
 
             }

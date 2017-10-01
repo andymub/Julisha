@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         Intent startPrincIntent;
-        startPrincIntent =new Intent(LoginActivity.this, PrincipalActivity.class);
+        startPrincIntent =new Intent(LoginActivity.this, MagEventSucActivity.class);
         switch(v.getId())
         {
             case R.id.btn_facebook :
@@ -50,7 +50,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.txt_next:
                 Intent startCreate;
+                //testActivity
                 startCreate =new Intent(LoginActivity.this, CreateProfil1Activity.class);
+                //startCreate =new Intent(LoginActivity.this, testActivity.class);
+
                 startActivity(startCreate);
 
         }

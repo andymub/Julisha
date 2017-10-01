@@ -31,4 +31,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
+    <string name="title_activity_magazine">MagazineActivity</string>
+    <string name="title_activity_mag_event_suc">MagEventSucActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="txtstartup">Les startups qui donnent des voix et qui animent sur les réseaux sociaux en République Démocratique du Congo sont multiples aujourd’hui, parmi elles nous vous présentons deux nouvelles startups qui animent nos fils d’actualité à travers des sites web et des pages sur des grands réseaux internet. </string>
 </resources>
