@@ -27,7 +27,7 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:text="Magasin"
+                android:text="Magazin"
                 android:textColor="@color/black" />
 
             <RelativeLayout
@@ -574,8 +574,7 @@
                                     android:id="@+id/textView12"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:elevation="1dp"
-                                    android:text="Le gouvernement congolais a pris l’initiative le 19 avril 2017 de soumettre un projet de loi à l’assemblée nationale portant sur les échanges et le commerce électronique dont l’examen s’opèrera lors de la session parlementaire en cours. "
+                                    android:text="Le gouvernement congolais a pris l’initiative le 19 avril 2017 de soumettre un projet de loi à l’assemblée nationale portant sur les échanges et le commerce électronique."
                                     android:textColor="@color/DarkGray"
                                     android:textSize="12sp" />
 
@@ -669,9 +668,8 @@
 
                                     <ImageView
                                         android:id="@+id/project_image_iv2"
-                                        android:layout_width="match_parent"
+                                        android:layout_width="197dp"
                                         android:layout_height="104dp"
-                                        android:layout_weight="0.72"
                                         android:adjustViewBounds="true"
                                         android:scaleType="fitXY"
                                         android:src="@drawable/thomas4" />
